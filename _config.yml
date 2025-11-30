@@ -1,27 +1,14 @@
 title: Logo ERP Geliştirici Rehberi
-description: Logo ERP (Tiger 3, Go3, Enterprise) veritabanı tabloları, SQL sorgu örnekleri ve geliştirici dokümantasyonu. En kapsamlı Türkçe kaynak.
+description: Logo ERP (Tiger 3, Go3, Enterprise) veritabanı tabloları, SQL sorgu örnekleri ve geliştirici dokümantasyonu.
 url: "https://sametzengins.github.io"
 baseurl: "/Logo-ERP-Gelistirici-Rehberi"
 
-remote_theme: just-the-docs/just-the-docs
+# Remote theme kaldırıldı, özel tema kullanılıyor.
+# remote_theme: ...
 
-# Tema Ayarları
-color_scheme: dark
-search_enabled: true
-heading_anchors: true
-
-# SEO ve Eklentiler
 plugins:
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
-# Navigasyon
-aux_links:
-  "GitHub Repo":
-    - "https://github.com/sametzengins/Logo-ERP-Gelistirici-Rehberi"
-
-# Altbilgi
-footer_content: "Copyright &copy; 2025 Samet Zengin. MIT License."
-
-# Google Analytics (İsteğe bağlı)
-# google_analytics: UA-XXXXX-X
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/

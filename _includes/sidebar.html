@@ -1,0 +1,30 @@
+<div class="sidebar">
+    <a href="{{ site.baseurl }}/" class="sidebar-title">
+        Logo ERP<br>Geliştirici Rehberi
+    </a>
+    
+    <ul class="nav-list">
+        <li class="nav-item">
+            <a href="{{ site.baseurl }}/" class="nav-link {% if page.url == '/' %}active{% endif %}">
+                🏠 Ana Sayfa
+            </a>
+        </li>
+        
+        <!-- Otomatik Sayfa Listeleme -->
+        {% assign pages = site.pages | sort: "nav_order" %}
+        {% for p in pages %}
+            {% if p.title and p.layout == 'default' %}
+            <li class="nav-item">
+                <a href="{{ site.baseurl }}{{ p.url }}" class="nav-link {% if p.url == page.url %}active{% endif %}">
+                    {{ p.title }}
+                </a>
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    
+    <div style="margin-top: 2rem; font-size: 0.8rem; color: #64748b;">
+        <p>v1.0.0</p>
+        <p>Made by Samet Zengin</p>
+    </div>
+</div>

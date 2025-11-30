@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'tr-TR' }}">
+{% include head.html %}
+
+<body>
+    <div class="layout-container">
+        {% include sidebar.html %}
+
+        <main class="main-content">
+            <div class="glass-card" style="text-align: center; padding-top: 4rem; padding-bottom: 4rem;">
+                {{ content }}
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
