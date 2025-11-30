@@ -1,0 +1,15 @@
+theme: jekyll-theme-slate
+title: Logo ERP Geliştirici Rehberi
+description: Logo ERP (Tiger, Go3, Tiger Enterprise) ürünleri için kapsamlı veritabanı tabloları, SQL sorgu örnekleri ve geliştirici dokümantasyonu.
+lang: tr-TR
+url: "https://sametzengin.github.io" # Kullanıcı adına göre tahmin edildi, değişebilir
+baseurl: "/Logo-ERP-Gelistirici-Rehberi"
+
+plugins:
+  - jekyll-seo-tag
+
+author:
+  name: Samet Zengin
+  github: sametzengin
+
+google_analytics: "" # İsteğe bağlı eklenebilir
