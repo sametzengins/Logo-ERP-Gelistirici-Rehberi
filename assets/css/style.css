@@ -96,6 +96,71 @@ body {
     color: var(--text-primary);
 }
 
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2.5rem 0;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+}
+
+th,
+td {
+    padding: 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-secondary);
+}
+
+th {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover td {
+    background: rgba(255, 255, 255, 0.02);
+    color: var(--text-primary);
+}
+
+/* Lists (Home Page & General) */
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.8rem;
+    position: relative;
+}
+
+/* Custom bullet for home page lists if they are links */
+.main-content ul li a {
+    display: inline-block;
+    color: var(--accent-blue);
+    font-weight: 500;
+    transition: all 0.2s;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.main-content ul li a:hover {
+    color: var(--accent-purple);
+    border-bottom-color: var(--accent-purple);
+    transform: translateX(4px);
+}
+
 .nav-link.active {
     background: rgba(41, 151, 255, 0.15);
     color: var(--accent-blue);
@@ -219,15 +284,19 @@ pre code {
 
 .search-modal {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%) scale(0.95);
     width: 600px;
     max-width: 90%;
+    max-height: 80vh;
+    /* Ensure it fits on screen */
+    display: flex;
+    flex-direction: column;
     background: #1c1c1e;
     border: 1px solid var(--border-color);
     border-radius: 16px;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.8);
     overflow: hidden;
     transition: transform 0.2s;
 }
@@ -244,9 +313,21 @@ pre code {
 }
 
 .search-results {
-    max-height: 400px;
+    flex: 1;
     overflow-y: auto;
     padding: 1rem;
+    /* Custom Scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-color) transparent;
+}
+
+.search-results::-webkit-scrollbar {
+    width: 6px;
+}
+
+.search-results::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 3px;
 }
 
 .search-result-item {
