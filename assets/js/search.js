@@ -16,8 +16,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Search Logic ---
     let searchIndex = [];
 
-    fetch('/Logo-ERP-Gelistirici-Rehberi/search.json')
-        .then(response => response.json())
+    // Fetch the search index
+    // Use relative path to support both local and production
+    const basePath = window.location.pathname.includes('/Logo-ERP-Gelistirici-Rehberi')
+        ? '/Logo-ERP-Gelistirici-Rehberi/search.json'
+        : '/search.json';
+
+    fetch(basePath)
+        .then(response => {
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+            return response.json();
+        })
         .then(data => {
             searchIndex = data;
             console.log("Search index loaded:", data.length, "items");

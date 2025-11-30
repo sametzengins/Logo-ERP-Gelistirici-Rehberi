@@ -11,6 +11,7 @@ description: Logo ERP banka, kasa, hizmet, sabit kıymet ve diğer yardımcı mo
 Banka, Kasa, Hizmet, Sabit Kıymet ve diğer yardımcı modüller.
 
 ## Banka Yönetimi
+
 | Tablo Adı | Açıklama |
 |-----------|----------|
 | `LG_XXX_BNCARD` | Banka Kartları |
@@ -20,6 +21,7 @@ Banka, Kasa, Hizmet, Sabit Kıymet ve diğer yardımcı modüller.
 | `LG_XXX_XX_BNTOTFIL` | Banka Aylık Toplamları |
 
 ## Kasa Yönetimi
+
 | Tablo Adı | Açıklama |
 |-----------|----------|
 | `LG_XXX_KSCARD` | Kasa Kartları |
@@ -27,6 +29,7 @@ Banka, Kasa, Hizmet, Sabit Kıymet ve diğer yardımcı modüller.
 | `LG_XXX_XX_CSHTOTS` | Kasa Aylık Toplamları |
 
 ## Hizmet Yönetimi
+
 | Tablo Adı | Açıklama |
 |-----------|----------|
 | `LG_XXX_SRVCARD` | Hizmet Kartları |
@@ -34,12 +37,14 @@ Banka, Kasa, Hizmet, Sabit Kıymet ve diğer yardımcı modüller.
 | `LG_XXX_XX_SRVTOT` | Hizmet Aylık Toplamları |
 
 ## Sabit Kıymetler
+
 | Tablo Adı | Açıklama |
 |-----------|----------|
 | `LG_XXX_FAREGIST` | Sabit Kıymet Kayıtları |
 | `LG_XXX_FAYEAR` | Sabit Kıymet Yıllık Kayıtları |
 
 ## Diğer
+
 | Tablo Adı | Açıklama |
 |-----------|----------|
 | `LG_XXX_XX_ORFICHE` | Sipariş Fişleri |
