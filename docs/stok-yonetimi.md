@@ -1,3 +1,11 @@
+---
+layout: default
+title: Stok Yönetimi
+nav_order: 2
+parent: Modüller
+description: Logo ERP malzeme kartları (ITEMS), stok fişleri (STFICHE), stok hareketleri (STLINE) ve barkod yapısı.
+---
+
 # Stok Yönetimi
 
 Malzeme kartları, stok hareketleri, ambar durumu ve barkod işlemleri ile ilgili tablolar.

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Muhasebe
+nav_order: 5
+parent: Modüller
+description: Logo ERP genel muhasebe hesap planı (EMUHACC), muhasebe fişleri ve entegrasyon kodları.
+---
+
 # Muhasebe Yönetimi
 
 Genel muhasebe, hesap planı, fişler ve entegrasyon kodları.

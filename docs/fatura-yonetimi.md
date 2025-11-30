@@ -1,3 +1,11 @@
+---
+layout: default
+title: Fatura Yönetimi
+nav_order: 4
+parent: Modüller
+description: Logo ERP satış ve satınalma faturaları (INVOICE), irsaliyeler ve fatura türleri (TRCODE) detayları.
+---
+
 # Fatura Yönetimi
 
 Satış ve satınalma faturaları, hizmet faturaları ve proforma faturalar.

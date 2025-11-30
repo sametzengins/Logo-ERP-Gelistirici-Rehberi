@@ -1,3 +1,11 @@
+---
+layout: default
+title: Diğer Modüller
+nav_order: 8
+parent: Modüller
+description: Logo ERP banka, kasa, hizmet, sabit kıymet ve diğer yardımcı modüllerin veritabanı tabloları.
+---
+
 # Diğer Modüller
 
 Banka, Kasa, Hizmet, Sabit Kıymet ve diğer yardımcı modüller.

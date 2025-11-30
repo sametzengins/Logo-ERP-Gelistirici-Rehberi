@@ -1,3 +1,11 @@
+---
+layout: default
+title: Üretim
+nav_order: 7
+parent: Modüller
+description: Logo ERP üretim emirleri (PRODORD), ürün reçeteleri (BOM), iş istasyonları ve operasyonlar.
+---
+
 # Üretim Yönetimi
 
 Üretim emirleri, reçeteler, iş istasyonları ve operasyonlar.

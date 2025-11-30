@@ -1,3 +1,11 @@
+---
+layout: default
+title: Cari Hesap
+nav_order: 3
+parent: Modüller
+description: Logo ERP cari hesap kartları (CLCARD), cari hareketler (CLFLINE) ve risk yönetimi veritabanı tabloları.
+---
+
 # Cari Hesap Yönetimi
 
 Müşteri ve tedarikçi kartları, borç/alacak takibi ve cari hareketler.

@@ -1,43 +1,45 @@
+---
+layout: home
+title: Ana Sayfa
+nav_order: 1
+description: Logo ERP Geliştirici Rehberi - Veritabanı tabloları, SQL örnekleri ve teknik dokümantasyon.
+permalink: /
+---
+
 # Logo ERP Geliştirici Rehberi
 
-![Logo ERP Developer Guide](https://img.shields.io/badge/Logo%20ERP-Developer%20Guide-blue?style=for-the-badge&logo=database)
-![SQL](https://img.shields.io/badge/Language-SQL-orange?style=for-the-badge&logo=microsoft-sql-server)
-![Documentation](https://img.shields.io/badge/Type-Documentation-green?style=for-the-badge)
+![Logo ERP](https://img.shields.io/badge/Logo_ERP-Tiger_&_Go3-blue?style=for-the-badge&logo=database&logoColor=white)
+![SQL](https://img.shields.io/badge/Language-T--SQL-orange?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Bu repo, **Logo Yazılım** ürünleri (Go3, Tiger 3, Tiger Enterprise vb.) üzerinde geliştirme yapmak, raporlama çözümleri üretmek veya entegrasyon sağlamak isteyen yazılımcılar için kapsamlı bir **Veritabanı Rehberi** ve **SQL Kaynakçası** olarak hazırlanmıştır.
+**Logo Yazılım** ürünleri (Tiger 3, Go3, Tiger Enterprise) için geliştirilmiş, topluluk destekli en kapsamlı **Veritabanı ve Geliştirici Rehberi**ne hoş geldiniz.
 
-## 🎯 Amaç
-Logo ERP ürünlerinin veritabanı yapısı oldukça kapsamlı ve karmaşıktır. Bu proje, dağınık haldeki tablo ve alan bilgilerini kategorize ederek, geliştiricilerin aradıkları bilgiye en hızlı şekilde ulaşmalarını sağlamayı hedefler.
-
-## 📚 İçindekiler
-
-Detaylı tablo açıklamaları ve ilişkiler için aşağıdaki modül dokümanlarını inceleyebilirsiniz:
-
-- **[Genel Tablolar](docs/genel-tablolar.md)**: Firma, döviz, birim setleri, şehirler vb.
-- **[Stok Yönetimi](docs/stok-yonetimi.md)**: Malzemeler, stok fişleri, birimler, barkodlar.
-- **[Cari Hesap Yönetimi](docs/cari-hesap.md)**: Cari kartlar, hareketler, risk analizleri.
-- **[Fatura Yönetimi](docs/fatura-yonetimi.md)**: Satış ve satınalma faturaları, irsaliyeler.
-- **[Muhasebe](docs/muhasebe.md)**: Muhasebe fişleri, hesap planı, entegrasyon kodları.
-- **[Çek & Senet](docs/cek-senet.md)**: Çek/Senet kartları, bordrolar ve durum kodları.
-- **[Üretim](docs/uretim.md)**: Üretim emirleri, reçeteler, iş istasyonları.
-- **[Diğer Modüller](docs/diger-moduller.md)**: Banka, kasa, hizmet, talep yönetimi vb.
-
-## 💡 SQL Örnekleri
-
-Sık kullanılan sorgular ve raporlama örnekleri için `sql-ornekleri` klasörüne göz atabilirsiniz:
-
-- [Stok Bakiye Sorgusu](sql-ornekleri/stok-bakiye-sorgusu.sql)
-- [Cari Hesap Ekstresi](sql-ornekleri/cari-ekstre.sql)
-- [Detaylı Fatura Listesi](sql-ornekleri/fatura-listesi.sql)
-
-## 🤝 Katkıda Bulunma
-
-Bu proje topluluk destekli bir girişimdir. Eksik gördüğünüz tabloları eklemek veya daha iyi SQL sorguları paylaşmak için lütfen bir **Pull Request** gönderin!
-
-1. Bu repoyu forklayın.
-2. Yeni bir branch oluşturun (`git checkout -b yeni-ozellik`).
-3. Değişikliklerinizi yapın ve commit'leyin.
-4. Branch'inizi pushlayın ve bir PR oluşturun.
+Bu proje, karmaşık ERP veritabanı yapısını anlaşılır hale getirmeyi ve geliştiricilerin ihtiyaç duyduğu SQL sorgularını bir araya getirmeyi hedefler.
 
 ---
-*Not: Bu proje resmi Logo Yazılım dokümantasyonu değildir. Geliştirici topluluğu tarafından oluşturulmuş bir rehberdir.*
+
+## 🚀 Neden Bu Rehber?
+
+Logo ERP veritabanında binlerce tablo bulunur. Doğru veriye ulaşmak bazen samanlıkta iğne aramaya benzer. Bu rehber ile:
+
+*   🔍 **Hızlı Arama:** Aradığınız tabloyu veya alanı saniyeler içinde bulun.
+*   📊 **İlişkisel Şemalar:** Tabloların birbirine nasıl bağlandığını (Join) öğrenin.
+*   💡 **Hazır SQL'ler:** Stok bakiyesi, cari ekstresi gibi hazır sorguları kopyalayıp kullanın.
+
+## 📚 Modüller
+
+Aşağıdaki modüllerden detaylı teknik dokümanlara ulaşabilirsiniz:
+
+*   [**Genel Tablolar**](docs/genel-tablolar.md): Firma, döviz, birim setleri.
+*   [**Stok Yönetimi**](docs/stok-yonetimi.md): Malzeme kartları, stok hareketleri.
+*   [**Cari Hesap**](docs/cari-hesap.md): Müşteri ve tedarikçi yönetimi.
+*   [**Fatura Yönetimi**](docs/fatura-yonetimi.md): Satış ve satınalma süreçleri.
+*   [**Muhasebe**](docs/muhasebe.md): Hesap planı ve fiş entegrasyonu.
+*   [**Çek & Senet**](docs/cek-senet.md): Finansal enstrümanlar.
+*   [**Üretim**](docs/uretim.md): Reçeteler ve iş emirleri.
+
+## 🤝 Katkıda Bulunun
+
+Bu proje açık kaynaklıdır ve topluluk katkılarıyla büyür. Eksik bir tablo mu gördünüz? Daha iyi bir SQL sorgunuz mu var?
+
+[GitHub Reposuna Git](https://github.com/sametzengins/Logo-ERP-Gelistirici-Rehberi){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

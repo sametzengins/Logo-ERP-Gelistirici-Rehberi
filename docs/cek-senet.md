@@ -1,3 +1,11 @@
+---
+layout: default
+title: Çek & Senet
+nav_order: 6
+parent: Modüller
+description: Logo ERP çek ve senet kartları (CSCARD), bordrolar (CSROLL) ve durum kodları (Portföy, Tahsil, Karşılıksız).
+---
+
 # Çek ve Senet Yönetimi
 
 Müşteri çekleri, kendi çeklerimiz, senetler ve bordro işlemleri.
