@@ -27,6 +27,7 @@ Müşteri çekleri, kendi çeklerimiz, senetler ve bordro işlemleri.
 ## Önemli Alanlar ve Kodlar
 
 ### Çek/Senet Durumları (CURRSTAT) - CSCARD
+
 | Kod | Açıklama |
 |-----|----------|
 | 1 | Portföyde |
@@ -43,6 +44,7 @@ Müşteri çekleri, kendi çeklerimiz, senetler ve bordro işlemleri.
 | 12 | Tahsil Edilemiyor |
 
 ### Bordro İşlem Türleri (TRCODE) - CSROLL
+
 | Kod | Açıklama |
 |-----|----------|
 | 1 | Çek Girişi |
