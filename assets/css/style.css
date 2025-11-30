@@ -174,7 +174,7 @@ tr:hover td {
 ul {
     padding-left: 1.5rem;
     list-style: none;
-    /* Remove default bullets */
+    /* Remove default bullets globally */
 }
 
 li {
@@ -182,14 +182,11 @@ li {
     position: relative;
 }
 
-/* Custom bullet for home page lists if they are links */
+/* Remove custom bullets for home page specifically if requested, or keep them subtle */
 .main-content ul li::before {
-    content: "•";
-    color: var(--accent-blue);
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+    content: "";
+    /* Remove the bullet content */
+    display: none;
 }
 
 /* Custom bullet for home page lists if they are links */
@@ -429,19 +426,45 @@ pre code {
 }
 
 .theme-toggle {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid var(--border-color);
-    color: var(--text-primary);
-    padding: 0.4rem 0.8rem;
-    border-radius: 8px;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
     cursor: pointer;
-    font-size: 0.9rem;
-    margin-top: 1rem;
-    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.2s;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+}
+
+/* GitHub Button Styling */
+a[href*="github.com"] {
+    display: inline-block;
+    background: linear-gradient(135deg, #24292e 0%, #000000 100%);
+    color: #fff !important;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+a[href*="github.com"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
 }
 
 /* Responsive */

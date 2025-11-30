@@ -23,6 +23,7 @@ Satış ve satınalma faturaları, hizmet faturaları ve proforma faturalar.
 ## Önemli Alanlar ve Kodlar
 
 ### Fatura Türleri (TRCODE) - INVOICE
+
 | Kod | Açıklama |
 |-----|----------|
 | 1 | Mal Alım Faturası |

@@ -25,6 +25,7 @@ Müşteri ve tedarikçi kartları, borç/alacak takibi ve cari hareketler.
 ## Önemli Alanlar ve Kodlar
 
 ### Cari Hesap İşlem Türleri (TRCODE) - CLFLINE
+
 | Kod | Açıklama |
 |-----|----------|
 | 1 | Nakit Tahsilat |

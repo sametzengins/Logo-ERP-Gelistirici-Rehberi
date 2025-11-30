@@ -32,6 +32,7 @@ Malzeme kartları, stok hareketleri, ambar durumu ve barkod işlemleri ile ilgil
 ## Önemli Alanlar ve Kodlar
 
 ### Stok Fiş Türleri (TRCODE) - STFICHE & STLINE
+
 | Kod | Açıklama |
 |-----|----------|
 | 1 | Mal Alım İrsaliyesi |
@@ -49,6 +50,7 @@ Malzeme kartları, stok hareketleri, ambar durumu ve barkod işlemleri ile ilgil
 | 51 | Sayım Eksiği Fişi |
 
 ### Malzeme Kart Türleri (CARDTYPE) - ITEMS
+
 | Kod | Açıklama |
 |-----|----------|
 | 1 | Ticari Mal |
